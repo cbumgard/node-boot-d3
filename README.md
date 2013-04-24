@@ -4,10 +4,10 @@ Demo based on [http://github.com/cbumgard/node-boot-demo](http://github.com/cbum
 
 Visit the node-boot dev blog [http://node-boot.blogspot.com/](http://node-boot.blogspot.com/) to see how to build your app based on node-boot.
 
-What is node-boot?
+What is node-boot-d3?
 ==================
 
-__node-boot__ is a starting point for developing a web application based on a proven node.js stack:
+__node-boot-d3__ is a starting point for developing a web application based on a proven node.js stack with d3 integration for awesome visualizations:
 
 - [express]
 - [jade view templates]
@@ -19,6 +19,7 @@ __node-boot__ is a starting point for developing a web application based on a pr
 - [Winston] (multi-transport async logging)
 - [Passport OAuth]
 - [Grunt.js] & [Bower] (easy task running, asset pipeline, and front-end package management)
+- __[D3.js]__ (data visualization)
 
 [express]: http://expressjs.com/
 [jade view templates]: http://jade-lang.com/
@@ -32,23 +33,24 @@ __node-boot__ is a starting point for developing a web application based on a pr
 [Passport OAuth]: http://passportjs.org/
 [Grunt.js]: http://gruntjs.com/
 [Bower]: http://twitter.github.io/bower/
+[D3.js]: http://d3js.org/
 
 Why You Should Use It
 =====================
 
-__node-boot__ is a starting point providing a sensible, configurable, and customizable set of choices. You get a turnkey web app that provides common patterns such as environment-specific configuration files, clustering for multiple cores, SSL certificate setup, database connections, logging transports, and caching and compression of content.
+__node-boot-d3__ is a starting point providing a sensible, configurable, and customizable set of choices. You get a turnkey web app that provides common patterns such as environment-specific configuration files, clustering for multiple cores, SSL certificate setup, database connections, logging transports, and caching and compression of content.
 
 The experience of building a production-ready, deployable web application involves making many choices: which technologies, what configuration settings, best practices, etc. While there is no one right set of choices, these are ones I have used in my own production web application and have found to be not only pragmatic and scalable, but a pleasure to work with. My hope is this might help you get off the ground fast so you can focus on building that awesome idea you've got in your head.
 
 How To Start
 ============
 
-Fork __node-boot__ at https://github.com/cbumgard/node-boot
+Fork __node-boot-d3__ at https://github.com/cbumgard/node-boot-d3
 
 Make sure you have the latest stable versions of __node.js__, __npm__, and __grunt__ installed. Then just:
 
-1. `git clone https://github.com/cbumgard/node-boot`
-2. `cd node-boot/`
+1. `git clone https://github.com/cbumgard/node-boot-d3`
+2. `cd node-boot-d3/`
 3. `npm install`
 4. `grunt dev` 
 5. `node app.js`
