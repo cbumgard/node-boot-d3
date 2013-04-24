@@ -3,6 +3,17 @@ extends layout
 block content
   .container
     h1!= title
+    hr    
+    #d3_example      
+      p
+        a(href='http://bl.ocks.org/mbostock') mbostock’s
+        |  block 
+        a(href='https://gist.github.com/mbostock/4060954') #4060954
+      p
+        | Found originally at 
+        a(href='http://bl.ocks.org/mbostock/4060954') http://bl.ocks.org/mbostock/4060954
+      button(onclick='transition()') Update
+    hr
     p Displaying README.md (from the project root) below. 
       | Transformed to HTML via 
       a(href='https://github.com/evilstreak/markdown-js') markdown-js.

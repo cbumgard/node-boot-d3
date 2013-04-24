@@ -1,5 +1,5 @@
 exports.app = app = {
-  title: 'node-boot',
+  title: 'node-boot-d3',
   host: 'localhost',
   port: 8000,
   ssl: false,

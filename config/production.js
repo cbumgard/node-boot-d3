@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 exports.app = app = {
-  title: 'node-boot',
+  title: 'node-boot-d3',
   host: 'localhost', // <= Change this to reflect the domain name this site is available on.
   port: 8000, // <= process.env.PORT overrides this, for hosted environments such as Heroku. Change to 443 if hosting for SSL.
   ssl: false, // Set to true once SSL certs are available and specified below:
